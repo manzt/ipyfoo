@@ -31,9 +31,3 @@ Note for developers:
 
 - the `-e` pip option allows one to modify the Python code in-place. Restart the kernel in order to see the changes.
 - the `--symlink` argument on Linux or OS X allows one to modify the JavaScript code in-place. This feature is not available with Windows.
-
-For developing with JupyterLab:
-
-```bash
-jupyter labextension develop --overwrite ipyfoo
-```
