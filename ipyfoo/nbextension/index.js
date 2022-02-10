@@ -1,10 +1,13 @@
 function main(base) {
-	class FooWidget extends base.DOMWidgetView {
+	class FooModel extends base.DOMWidgetModel { /* ... */ }
+
+	class FooView extends base.DOMWidgetView {
 		async render() {
 			this.el.textContent = "it worked!"
 		}
 	}
-	return { FooWidget };
+
+	return { FooModel, FooView };
 }
 
 define(["@jupyter-widgets/base"], main);
