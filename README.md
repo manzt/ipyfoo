@@ -1,6 +1,6 @@
 # ipyfoo
 
-A bare bones implementation of a Jupyter widget.
+A bare bones implementation of a Jupyter widget for **Jupyter notebooks**.
 
 There is a **lot** of complexity hidden with how cookiecutter
 templates for Jupyter widgets generate the final code that
@@ -12,7 +12,8 @@ the screen.
 This is the most minimal example I could come up with to
 implement a Jupyter widget. There is **zero** JavaScript
 build step; just start a jupyter notebook and start
-editing the contents of `ipyfoo`.
+editing the contents of `ipyfoo`. There is a [Twitter thread](https://twitter.com/trevmanz/status/1491815033734668288)
+with a more detailed walk through of the code base.
 
 ### Development
 
